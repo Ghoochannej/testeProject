@@ -1,0 +1,33 @@
+{
+  "name": "teste-project",
+  "version": "1.0.0",
+  "description": "One teste project by robertoachar-generator",
+  "author": "Caio Henrique <caiohenrique6@outlook.com>",
+  "homepage": "https://github.com/Ghoochannej/teste-project#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ghoochannej/teste-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ghoochannej/teste-project/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.13.0"
+  },
+  "license": "MIT"
+}
